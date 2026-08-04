@@ -1,15 +1,12 @@
+"use strict";
 (() => {
-    const hero: string = "Iron Man";
-
-    function returnName(): string {
+    const hero = "Iron Man";
+    function returnName() {
         return hero;
     }
-
-    const activateBatSignal = () =>{
+    const activateBatSignal = () => {
         return "Bat Signal Activated!";
-    }
-
+    };
     console.log(typeof activateBatSignal);
-
     const heroName = returnName();
 })();
